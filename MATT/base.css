@@ -153,11 +153,28 @@
   display: flex;
   justify-content: center;
 
+
 }
 
 .example-div-SearchBar {
-  top: 50%;
-  left: 50%;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  /* width: 35%; */
+  /* height: 2em; */
+  background: white;
+  /* border: 1px solid gray; */
+  border-radius: 20px;
+  /* max-width: 50em; */
+  /* max-height:50em; */
+  /* width : 50vw; */
+
+}
+
+.input {
+  top: 50vh;
+  left: 50vw;
   transform: translate(-50% , -50%);
   position: absolute;
   /* width: 35%; */
@@ -167,7 +184,8 @@
   border-radius: 20px;
   /* max-width: 50em; */
   /* max-height:50em; */
-  width : 50vw;
+  width : 400px;
+  border: 2px solid black;
 
 }
 
@@ -221,6 +239,8 @@
 }
 
 
+
+
 /*
 
 /* ROUNDED SEARCH BAR 
@@ -267,3 +287,4 @@ body, html {
 }
 
 */
+
