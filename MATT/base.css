@@ -59,7 +59,30 @@ nav {
   color:  rgb(70, 70, 70);
 }
 
-.example-div {
+/*.example-div {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  /* width: 35%; 
+  /* height: 2em; 
+  background: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+  /* max-width: 50em; 
+  /* max-height:50em; 
+  width : 400px;
+}*/
+
+.border-flex-SearchBar {
+  border: 2px solid purple;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+
+}
+
+.example-div-SearchBar {
   top: 50%;
   left: 50%;
   transform: translate(-50% , -50%);
@@ -69,15 +92,19 @@ nav {
   background: white;
   border: 1px solid gray;
   border-radius: 20px;
+  /* max-width: 50em; */
+  /* max-height:50em; */
+  width : 400px;
 }
 
+/*
 .border-flex {
   border: 2px solid red;
-  /* display: inline-block; */
+  /* display: inline-block; 
   display: flex;
   justify-content: flex-end;
 
-}
+}*/
 
 
 .example-div1 {
@@ -89,7 +116,7 @@ nav {
   /* max-width: 10em; */
 }
 
-.border-flex1 {
+.border-flex-logo {
   border: 2px solid rgb(0, 255, 106);
   max-width: 15em;
   display: flex;
@@ -97,7 +124,7 @@ nav {
 
 }
 
-.example-div2 {
+.example-div-button {
   top: 55%;
   left: 50%;
   transform: translate(-50% , -50%);
@@ -106,7 +133,7 @@ nav {
   /* max-width: 10em; */
 }
 
-.border-flex2 {
+.border-flex-button {
   border: 2px solid rgb(0, 255, 106);
   max-width: 15em;
   display: flex;
