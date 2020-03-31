@@ -31,7 +31,25 @@ button {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
+
+button:hover {
+  margin: 30px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 /* header */
 header {
   display: flex;
