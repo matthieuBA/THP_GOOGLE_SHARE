@@ -15,3 +15,16 @@
   border: 2px solid red;
 }
 
+
+.example-div1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+}
+
+.border-flex1 {
+  border: 2px solid rgb(0, 255, 106);
+}
+
+
