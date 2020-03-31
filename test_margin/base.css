@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.example-div {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+}
+
+.border-flex {
+  border: 2px solid red;
+}
+

@@ -1,6 +1,4 @@
-/**
- * Images a now responsive
- */
+
  img {
 	max-width: 100%;
 	height: auto;
@@ -13,42 +11,73 @@
 .container {
 	width: 100%;
 	max-width: 100%;
-	padding: 20px;
+	padding: 10px;
 	margin: 0 auto;
 }
 
-/**
- * By using display: flex
- * Logo and nav are in 2 cols
- * align-items make them
- * vertically centered
- * justify-content distribute
- * horizontal spaces around
- * and flex-wrap break the
- * things in two lines in
- * small screens
- */
+
 .main-header .container {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: flex-end;
 	flex-wrap: wrap;
 }
 
-/**
- * The followings are to
- * make things more
- * clean and airy
- * and contents centered
- */
 .main-nav ul {
-	margin: 1em 0 .5em;
-	text-align: center;
+	margin: 0em 0 0em;
+	text-align: right;
 }
 .main-nav li {
-	display: inline;
+	display: inline-block;
 }
 .main-nav a {
 	display: inline-block;
-	padding: .5em 1.5em;
+	padding: 0.2em 0.2em;
+}
+
+
+/* playground */
+
+body, html {
+  width: 90%;
+  height: 90%;
+  background-color: white;
+}
+
+.playground {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+ 
+}
+
+.container1 {
+  flex: 1 1 auto;
+  width: 400px;
+  height: 30px;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin: auto auto;
+}
+.container1 .content {
+  padding: 0 12px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.container1 .content input {
+  flex: 1 1 auto;
+  margin: auto auto;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  height: 100%;
+  background: transparent;
+}
+.container1 .content i {
+  flex: 0 0 auto;
+  margin-left: 5px;
 }

@@ -1,0 +1,84 @@
+.body {
+
+    font-family: Arial, sans-serif;
+}
+
+
+.main {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+
+}
+
+.second {
+
+    padding-left: 955px;
+    padding-top: 10px;
+
+    
+}
+
+.COVID19 {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.english {
+
+    text-align: center;
+}
+.baspage {
+
+    margin-left: 30px;
+    text-align: left;
+    padding-top: 350px;
+    color: rgba(0,0,0,.54);
+}
+.bouton {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.playground {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 400px;
+    height: 30px;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+    
+    .content {
+      padding: 0 12px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+  
+      input {
+        flex: 1 1 auto;
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        height: 100%;
+        background: transparent;
+      }
+      
+      i {
+        flex: 0 0 auto;
+        margin-left: 5px;
+      }
+    }
+  }
