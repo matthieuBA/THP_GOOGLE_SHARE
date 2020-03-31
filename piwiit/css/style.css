@@ -16,13 +16,19 @@ body {
 a {
   text-decoration: none;
 }
-button {
-  margin: 11px 4px;
-  padding: 0 16px;
-  background-color: #f2f2f2;
-  border: none;
-  font-size: 14px;
+a:hover {
+  text-decoration: underline;
 }
+button {
+  margin: 11px 8px;
+  padding: 13px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 /* header */
 header {
   display: flex;
@@ -53,6 +59,7 @@ header ul input {
 }
 /* body */
 .body {
+  position: relative;
   flex: auto;
   display: flex;
   flex-flow: column;
@@ -61,22 +68,59 @@ header ul input {
   margin: 109px auto 0px auto;
   height: 92px;
   width: 272px;
-  border: 1px solid;
+
   background: url(https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
     center no-repeat;
 }
-
+/* search bar */
 .input-search {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 16px auto;
+  margin: 18px auto;
   height: 140px;
   width: 484px;
 }
 
+.search {
+  border: 1px solid #dfe1e5;
+  width: 482px;
+  height: 44px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.search2 {
+  margin-top: 15px;
+}
 .input {
-  height: 34px;
   width: 387px;
-  border: 1px 0 1px 0 black;
+  height: 34px;
+
+  border: none;
+  outline: none;
+  font-size: large;
+}
+.search:hover {
+  box-shadow: 1px 1px 12px #dfe1e5;
+}
+.logo1 {
+  cursor: pointer;
+  color: #bdc3c7;
+}
+/* convid19 */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.warning {
+  width: 65px;
+  height: 65px;
+  padding-right: 10px;
+  background: url(https://www.gstatic.com/images/hpp/dothefive_90x90t.gif)
+    center no-repeat/cover;
 }
