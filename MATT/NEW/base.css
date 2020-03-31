@@ -1,5 +1,4 @@
 /*HEADER*/
-
 .navbar-header {
   display: flex;
   justify-content: flex-end;
@@ -61,6 +60,17 @@
   text-decoration: underline;
 }
 
+/* LOGO */
+.example-div-logo {
+  top: 40vh;
+  left: 50vw;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  max-width: 50vw;
+  display: flex;
+  max-height: 50vw;
+  border: 2px solid rgb(0, 255, 106);
+}
 
 /* SEARCHBAR */
 .border-flex-SearchBar {
@@ -82,23 +92,7 @@
   
 }
 
-
-/* LOGO */
-.example-div-logo {
-  top: 40vh;
-  left: 50vw;
-  transform: translate(-50% , -50%);
-  position: absolute;
-  max-width: 50vw;
-  display: flex;
-  max-height: 50vw;
-  border: 2px solid rgb(0, 255, 106);
-}
-
-
-
 /* BUTTON */
-
 .example-div-button {
   top: 55vh;
   left: 50vw;
@@ -110,7 +104,6 @@
 }
 
 /* BARRIERE */
-
 .example-div-barriere{
   top: 60vh;
   left: 50vw;
@@ -123,9 +116,7 @@
   
 }
 
-
 /* SWITCH */
-
 .example-div-switch{
   top: 65vh;
   left: 50vw;
@@ -135,10 +126,7 @@
   border: 2px solid rgb(255, 120, 255);
 }
 
-
-
-  /*FOOTER*/
-
+/*FOOTER*/
   .border-flex-footer {
     border: 2px solid magenta;
     display: flex;
