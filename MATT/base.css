@@ -257,6 +257,9 @@
   background: white;
   /* border: 1px solid gray; */
   /* border-radius: 1em; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
