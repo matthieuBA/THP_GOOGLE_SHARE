@@ -1,0 +1,153 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+/* general */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+button {
+  margin: 11px 8px;
+  padding: 13px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: flex-end;
+  font-size: 16px;
+  line-height: 55px;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row nowrap;
+}
+header ul li {
+  padding: 0.5rem;
+  font-size: 13px;
+}
+header ul input {
+  font-weight: bold;
+  color: white;
+  background: #4486f8;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+/* body */
+.body {
+  position: relative;
+  flex: auto;
+  display: flex;
+  flex-flow: column;
+}
+.logo {
+  margin: 109px auto 0px auto;
+  height: 92px;
+  width: 272px;
+
+  background: url(https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+    center no-repeat;
+}
+/* search bar */
+.input-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 18px auto;
+  height: 140px;
+  width: 484px;
+}
+
+.search {
+  border: 1px solid #dfe1e5;
+  width: 482px;
+  height: 44px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.search2 {
+  margin-top: 15px;
+}
+.input {
+  width: 387px;
+  height: 34px;
+
+  border: none;
+  outline: none;
+  font-size: large;
+}
+.search:hover {
+  box-shadow: 1px 1px 12px #dfe1e5;
+}
+.logo1 {
+  cursor: pointer;
+  color: #bdc3c7;
+}
+/* convid19 */
+.example-div-barriere {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.example-div-barriere img {
+  margin-right: 10px;
+}
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+  text-decoration: none;
+
+  color: #929497;
+}
+.pays {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+.pays a {
+  padding-left: 17px;
+}
+.other {
+  border-top: 1px solid #e4e4e4;
+  height: 40px;
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.left a {
+  padding-left: 17px;
+}
+.right a {
+  padding-right: 17px;
+}
