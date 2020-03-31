@@ -4,20 +4,64 @@
   align-items: flex-end;
 }
 
+nav {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding-left: 0px;
+  padding-right: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(70, 70, 70);
+}
+
+.logo {
+  display: inline-block;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 1em 1em;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 1em 1em;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+.nav-item:hover {
+  background-color: rgb(70, 70, 70);
+}
+
+.nav-item:hover a {
+  color:  rgb(70, 70, 70);
+}
+
 .example-div {
   top: 50%;
   left: 50%;
   transform: translate(-50% , -50%);
   position: absolute;
-  width: 400px;
-  height: 30px;
+  width: 35%;
+  height: 2em;
   background: white;
   border: 1px solid gray;
   border-radius: 20px;
 }
 
 .border-flex {
-  border: 2px solid red;
+  border: 1em solid red;
 }
 
 
@@ -26,6 +70,8 @@
   left: 50%;
   transform: translate(-50% , -50%);
   position: absolute;
+  /* width: 50%; */
+  /* max-width: 10em; */
 }
 
 .border-flex1 {
@@ -55,13 +101,13 @@ body, html {
 
 .container {
   width: 400px;
-  height: 30px;
+  height: 2empx;
   background: white;
   border: 1px solid gray;
-  border-radius: 20px;
+  border-radius: 1em;
 }
 .container .content {
-  padding: 0 12px;
+  padding: 0 1em;
   height: 100%;
   display: flex;
   align-items: center;
@@ -77,6 +123,6 @@ body, html {
 }
 .container .content i {
   flex: 0 0 auto;
-  margin-left: 5px;
+  margin-left: 1em;
 }
 
