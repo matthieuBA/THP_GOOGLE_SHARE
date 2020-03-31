@@ -16,7 +16,7 @@ nav {
 }
 
 .logo {
-  display: inline-block;
+  /* display: inline-block; */
   max-height: 1em;
   display: flex;
   justify-content: flex-end;
@@ -26,7 +26,7 @@ nav {
 }
 
 .nav-links {
-  display: inline-block;
+  /* display: inline-block; */
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -34,7 +34,7 @@ nav {
 }
 
 .nav-item a {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 0 0;
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -73,6 +73,10 @@ nav {
 
 .border-flex {
   border: 2px solid red;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: flex-end;
+
 }
 
 
@@ -107,6 +111,33 @@ nav {
   max-width: 15em;
   display: flex;
   max-height: 15em;
+  /* width: 400px;
+  height: 2em; */
+  background: white;
+  border: 1px solid gray;
+  border-radius: 1em;
+
+}
+
+.example-div3 {
+  top: 55%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  /* width: 50%; */
+  /* max-width: 10em; */
+}
+
+.border-flex3 {
+  border: 2px solid rgb(255, 255, 0);
+  max-width: 15em;
+  display: flex;
+  max-height: 15em;
+  /* width: 400px;
+  height: 2em; */
+  background: white;
+  border: 1px solid gray;
+  border-radius: 1em;
 
 }
 
@@ -129,7 +160,7 @@ body, html {
 
 .container {
   width: 400px;
-  height: 2empx;
+  height: 2em;
   background: white;
   border: 1px solid gray;
   border-radius: 1em;
