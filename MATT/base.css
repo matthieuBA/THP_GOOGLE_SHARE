@@ -14,7 +14,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: rgb(70, 70, 70);
+  /* color: rgb(70, 70, 70); */
   
 }
 
@@ -42,7 +42,9 @@
   
   padding: 0 0;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(0,0,0,0.87);
+  line-height: 24px;
+  /* display: inline-block */
 
 }
 
@@ -62,9 +64,9 @@
 
 /* LOGO */
 .example-div-logo {
-  top: 40vh;
+  top: 25vh;
   left: 50vw;
-  transform: translate(-50% , -50%);
+  /* transform: translate(-50% , -50%); */
   position: absolute;
   max-width: 50vw;
   display: flex;
@@ -75,21 +77,14 @@
 /* SEARCHBAR */
 .border-flex-SearchBar {
   border: 2px solid purple;
-  
   display: flex;
   justify-content: center;
-
-
 }
 
 .example-div-SearchBar {
   top: 50vh;
-  
- 
   position: absolute;
-  
   border-radius: 20px;
-  
 }
 
 /* BUTTON */
