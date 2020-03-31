@@ -269,25 +269,30 @@
   left: 50vw;
   transform: translate(-50% , -50%);
   position: absolute;
-  /* width: 50%; */
-  /* max-width: 10em; */
-}
-
-.border-flex-barriere {
-  border: 2px solid rgb(55, 55, 015);
-  /* max-width: 15em; */
-  display: flex;
-  /* max-height: 15em; */
-  /* width: 400px;
-  height: 2em; */
-  background: white;
-  /* border: 1px solid gray; */
-  /* border-radius: 1em; */
   display: flex;
   justify-content: center;
   align-items: center;
-
+  background: white;
+  border: 2px solid rgb(55, 55, 015);
+  
 }
+
+
+/*.border-flex-barriere {
+  /* border: 2px solid rgb(55, 55, 015); */
+  /* max-width: 15em; */
+  /* display: flex; */
+  /* max-height: 15em; */
+  /* width: 400px;*/
+  /* height: 2em;  */
+  /* background: white; */
+  /* border: 1px solid gray; */
+  /* border-radius: 1em; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+
+/*}*/
 
 .example-div-switch{
   top: 65vh;
