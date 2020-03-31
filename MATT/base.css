@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   align-items: flex-end;
 }
 
@@ -10,23 +10,26 @@ nav {
   padding-left: 0px;
   padding-right: 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   color: rgb(70, 70, 70);
 }
 
 .logo {
   display: inline-block;
+  max-height: 2.5em;
 }
 
 .nav-links {
+  display: inline-block;
   list-style: none;
   display: flex;
+  justify-content: flex-end;
 }
 
 .nav-item a {
   display: inline-block;
-  padding: 1em 1em;
+  padding: 0 0;
   text-decoration: none;
   color: rgb(0, 0, 0);
   background-color: white;
@@ -38,6 +41,8 @@ nav {
   text-decoration: none;
   color: rgb(0, 0, 0);
   background-color: white;
+  justify-content: flex-end;
+  
 }
 
 .nav-item:hover {
@@ -61,7 +66,7 @@ nav {
 }
 
 .border-flex {
-  border: 1em solid red;
+  border: 2px solid red;
 }
 
 
@@ -75,6 +80,23 @@ nav {
 }
 
 .border-flex1 {
+  border: 2px solid rgb(0, 255, 106);
+  max-width: 15em;
+  display: flex;
+  max-height: 15em;
+
+}
+
+.example-div2 {
+  top: 60%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  /* width: 50%; */
+  /* max-width: 10em; */
+}
+
+.border-flex2 {
   border: 2px solid rgb(0, 255, 106);
   max-width: 15em;
   display: flex;
