@@ -158,9 +158,10 @@ a:hover {
   transform: translate(-50% , -50%);
   position: absolute;
   display: flex;
+  flex-direction: nowrap;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgb(55, 55, 015);
+
   
 }
 
@@ -171,7 +172,6 @@ a:hover {
   transform: translate(-50% , -50%);
   position: absolute;
   display: flex;
-  border: 2px solid rgb(255, 120, 255);
 }
 
 
@@ -181,6 +181,10 @@ a:hover {
   display: flex;
   justify-content: space-around;
   flex-direction: row nowrap;
+  background-color: rgb(#6b0f0f);
+
+  
+  
 }
 
 .navbar-footer {
@@ -189,11 +193,11 @@ a:hover {
   align-items: flex-end;
   width: 100%;
   flex-direction: row nowrap;
+  
 }
 
 .nav-footer {
   width: 100%;
-  background-color: rgb(255, 255, 255);
   padding-left: 0px;
   padding-right: 0px;
   display: flex;
@@ -222,6 +226,7 @@ a:hover {
   position: absolute;
   bottom: 0;
   min-width: 50vw;
+  
 }
 
 .nav-item-footer a {
@@ -229,6 +234,7 @@ a:hover {
   text-decoration: none;
   color: rgb(0, 0, 0);
   min-width: 50vw;
+  
 }
 
 .nav-item-footer {
@@ -237,6 +243,11 @@ a:hover {
   text-decoration: none;
   color: rgb(0, 0, 0);
   justify-content: space-around; 
+  
+}
+
+.footer{
+  background-color: rgb(#6b0f0f);
 }
 
 .nav-item-footer:hover {

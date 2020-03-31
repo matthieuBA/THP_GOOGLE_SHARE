@@ -102,10 +102,10 @@
 
 /* BARRIERE */
 .example-div-barriere{
-  top: 60vh;
-  left: 50vw;
-  transform: translate(-50% , -50%);
-  position: absolute;
+  /* top: 60vh; */
+  /* left: 50vw; */
+  /* transform: translate(-50% , -50%); */
+  /* position: absolute; */
   display: flex;
   justify-content: center;
   align-items: center;
