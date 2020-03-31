@@ -4,6 +4,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  /* max-height:5vh; */
 }
 
 .nav-header {
@@ -15,6 +16,7 @@
   justify-content: flex-end;
   align-items: center;
   color: rgb(70, 70, 70);
+  /* max-height:5vh; */
 }
 
 .logo-header {
@@ -24,6 +26,7 @@
   justify-content: flex-end;
   align-items: center;
   /* padding-top: 0.5em; */
+  /* max-height:5vh; */
 
 }
 
@@ -33,6 +36,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  /* max-height:5vh; */
   
 }
 
@@ -42,6 +46,7 @@
   text-decoration: none;
   color: rgb(0, 0, 0);
   background-color: white;
+  /* max-height:5vh; */
 }
 
 .nav-item-header {
@@ -51,6 +56,7 @@
   color: rgb(0, 0, 0);
   background-color: white;
   justify-content: flex-end;
+  /* max-height:5vh; */
   
 }
 
@@ -62,10 +68,21 @@
 
 /*FOOTER*/
 
+.border-flex-footer {
+  border: 2px solid magenta;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
 .navbar-footer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: flex-end;
+  width: 100%;
+  /* max-height:5vh; */
 }
 
 .nav-footer {
@@ -74,31 +91,36 @@
   padding-left: 0px;
   padding-right: 0px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   color: rgb(70, 70, 70);
   position: absolute;
   margin-bottom: 0;
+  /* max-height:5vh; */
 }
 
 .logo-footer {
   /* display: inline-block; */
   max-height: 1em;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   /* padding-top: 0.5em; */
+  /* max-height:5vh; */
 
 }
 
 .nav-links-footer {
   /* display: inline-block; */
+  width:100vw;
   /* list-style: image(); */
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   position: absolute;
   bottom: 0;
+  /* max-height:5vh; */
+  border: 2px solid magenta;
   
 }
 
@@ -116,7 +138,8 @@
   text-decoration: none;
   color: rgb(0, 0, 0);
   background-color: white;
-  justify-content: center;
+  justify-content: space-around;
+  /* max-height:5vh; */
   
   
 }
@@ -158,8 +181,9 @@
 
 .example-div-SearchBar {
   top: 50vh;
-  left: 50vw;
-  transform: translate(-50% , -50%);
+  
+  /* left: 50vw; */
+  /* transform: translate(-50% , -50%); */
   position: absolute;
   /* width: 35%; */
   /* height: 2em; */
@@ -169,7 +193,8 @@
   /* max-width: 50em; */
   /* max-height:50em; */
   /* width : 50vw; */
-
+  /* max-width: 5vw;  */
+  /* max-height:5vh; */
 }
 
 .input {
@@ -204,6 +229,7 @@
   left: 50vw;
   transform: translate(-50% , -50%);
   position: absolute;
+
   /* width: 50%; */
   /* max-width: 10em; */
 }
@@ -226,7 +252,7 @@
 }
 
 .border-flex-button {
-  border: 2px solid rgb(0, 255, 106);
+  border: 2px solid rgb(0, 0, 106);
   max-width: 15em;
   display: flex;
   max-height: 15em;
@@ -248,7 +274,7 @@
 }
 
 .border-flex-barriere {
-  border: 2px solid rgb(0, 255, 106);
+  border: 2px solid rgb(55, 55, 015);
   /* max-width: 15em; */
   display: flex;
   /* max-height: 15em; */
@@ -273,15 +299,15 @@
 }
 
 .border-flex-switch {
-  border: 2px solid rgb(0, 255, 106);
+  border: 2px solid rgb(255, 120, 255);
   max-width: 15em;
   display: flex;
   max-height: 15em;
   /* width: 400px;
   height: 2em; */
   background: white;
-  border: 1px solid gray;
-  border-radius: 1em;
+  /* border: 1px solid gray; */
+  /* border-radius: 1em; */
 
 }
 
