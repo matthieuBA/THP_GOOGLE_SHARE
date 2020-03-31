@@ -49,15 +49,10 @@ a:link{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: red solid 2px; 
 }
 .logo_stop img{
     width: 45px;
     height: 45px;
-    border: red solid 2px;
-}
-.logo_stop a{
-    border: red solid 2px;
 }
 .search{
     border-radius: 200px;
