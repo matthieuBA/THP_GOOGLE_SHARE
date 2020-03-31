@@ -167,7 +167,8 @@
   border-radius: 20px;
   /* max-width: 50em; */
   /* max-height:50em; */
-  width : 400px;
+  width : 50vw;
+
 }
 
 /*
@@ -181,8 +182,8 @@
 
 
 .example-div-logo {
-  top: 40%;
-  left: 50%;
+  top: 40vh;
+  left: 50vw;
   transform: translate(-50% , -50%);
   position: absolute;
   /* width: 50%; */
@@ -191,15 +192,15 @@
 
 .border-flex-logo {
   border: 2px solid rgb(0, 255, 106);
-  max-width: 15em;
+  max-width: 50vw;
   display: flex;
-  max-height: 15em;
+  max-height: 50vw;
 
 }
 
 .example-div-button {
-  top: 55%;
-  left: 50%;
+  top: 55vh;
+  left: 50vw;
   transform: translate(-50% , -50%);
   position: absolute;
   /* width: 50%; */
