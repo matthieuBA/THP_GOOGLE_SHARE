@@ -148,9 +148,7 @@ a:hover {
   align-items: center;
   width: 400px;
 }
-.input:hover {
-  box-shadow: ;
-}
+
 
 
 /*FOOTER*/
@@ -214,4 +212,8 @@ a:hover {
 
 .nav-item-footer:hover {
   text-decoration: underline;
+}
+
+.search:hover {
+  box-shadow: 1px 1px 12px #dfe1e5;
 }
