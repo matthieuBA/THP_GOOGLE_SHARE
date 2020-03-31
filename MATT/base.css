@@ -93,9 +93,9 @@
 
 .nav-links-footer {
   /* display: inline-block; */
-  list-style: image();
+  /* list-style: image(); */
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   position: absolute;
   bottom: 0;
@@ -116,7 +116,7 @@
   text-decoration: none;
   color: rgb(0, 0, 0);
   background-color: white;
-  justify-content: flex-end;
+  justify-content: center;
   
   
 }
