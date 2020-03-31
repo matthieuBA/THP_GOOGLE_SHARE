@@ -64,14 +64,16 @@
 
 /* LOGO */
 .example-div-logo {
-  top: 25vh;
-  left: 50vw;
-  transform: translate(-50% , -50%);
-  position: absolute;
-  max-width: 50vw;
+  /* top: 25vh; */
+  /* left: 50vw; */
+  /* transform: translate(-50% , -50%); */
+  /* position: absolute; */
+  /* max-width: 50vw; */
   display: flex;
-  max-height: 50vh;
+  /* max-height: 50vw; */
   border: 2px solid rgb(0, 255, 106);
+  align-items: center;
+
 }
 
 /* SEARCHBAR */
@@ -82,10 +84,9 @@
 }
 
 .example-div-SearchBar {
-  top: 40vh;
+  top: 50vh;
   position: absolute;
   border-radius: 20px;
-  
 }
 
 /* BUTTON */
