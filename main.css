@@ -40,6 +40,14 @@ nav {
   background-color: white;
 }
 
+.nav-item {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
 .nav-item:hover {
   background-color: rgb(70, 70, 70);
 }
