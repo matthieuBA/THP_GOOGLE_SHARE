@@ -84,7 +84,7 @@ a:link{
     top: 50%;
     left: 50%;
     width: 650px;
-    height: 50px;
+    height: 47px;
     border-radius: 40px;
     border: 1px solid rgba(206, 197, 197, 0.527);
     transform: translate(-50%, -50%);
@@ -101,7 +101,7 @@ button{
     margin-right: 7px;
 }
 .button_search{
-    margin: 0 0 50px 0;
+    margin: 0 0 20px 0;
 }
 .button_search a{
     padding: 11px 4px;
@@ -109,22 +109,27 @@ button{
     font-size: 15px;
     color: rgb(109, 108, 108);
 }
+.logo_stop a:hover{
+    text-decoration: underline;
+}
+p a:hover{
+    text-decoration: underline;
+}
 
 
 /***********************/
 /*        Footer       */
 /***********************/
 
+
 footer{
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     padding: 20px;
     background-color: rgba(206, 197, 197, 0.267);
-    border: red solid 2px;
-    margin: 0 -20 0 0px;
+    margin: 0 0 0 -20px;
     font-size: 15px;
-
 }
 footer, span{
     padding: 10px;
@@ -149,11 +154,9 @@ footer a:active{
     align-items: flex-start;
     width: auto;
     color: rgb(109, 108, 108);
-    border: red solid 2px;
-
 }
 .fleft span{
-    padding: 10px;;
+    padding: 10px;
 }
 .fright{
     display: flex;
@@ -162,9 +165,13 @@ footer a:active{
     width: auto;
     text-align: center;
     color: rgb(109, 108, 108);
-    border: red solid 2px;
 }
 .fright span{
     padding: 10px;
+}
+.france{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 17px;
 }
 
