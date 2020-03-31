@@ -17,7 +17,12 @@ nav {
 
 .logo {
   display: inline-block;
-  max-height: 2.5em;
+  max-height: 1em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 0.5em;
+
 }
 
 .nav-links {
@@ -25,6 +30,7 @@ nav {
   list-style: none;
   display: flex;
   justify-content: flex-end;
+  
 }
 
 .nav-item a {
@@ -58,8 +64,8 @@ nav {
   left: 50%;
   transform: translate(-50% , -50%);
   position: absolute;
-  width: 35%;
-  height: 2em;
+  /* width: 35%; */
+  /* height: 2em; */
   background: white;
   border: 1px solid gray;
   border-radius: 20px;
@@ -88,7 +94,7 @@ nav {
 }
 
 .example-div2 {
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50% , -50%);
   position: absolute;
