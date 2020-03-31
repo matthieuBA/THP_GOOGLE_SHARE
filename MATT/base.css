@@ -82,9 +82,10 @@
 }
 
 .example-div-SearchBar {
-  top: 30vh;
+  top: 40vh;
   position: absolute;
   border-radius: 20px;
+  
 }
 
 /* BUTTON */
