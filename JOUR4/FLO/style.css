@@ -1,0 +1,13 @@
+.jumbotron-hero {
+    /* Choisis la hauteur ici */
+    height: 500px;
+    object-fit: cover;
+  
+    /* Tu lui donnes une image de background */
+    background-image: url("https://images.pexels.com/photos/416676/pexels-photo-416676.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  
+    /* Centre l'image et la met bien sur tous les écrans */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

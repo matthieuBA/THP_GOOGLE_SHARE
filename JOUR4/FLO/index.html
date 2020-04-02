@@ -1,32 +1,169 @@
-
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <title>Hello, world!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>The surfing Project</title>
 </head>
 
 <body>
+  <!----------------------------->
+  <!------------NAVBAR----------->
+  <!----------------------------->
+  <nav class="nav bg-grey bg-dark ">
+    <a class="nav-link disabled text-light" href="# aria-disabled=" true">The Surfing Project</a>
+    <a class="nav-link active text-light" href="#">Accueil</a>
+    <a class="nav-link text-secondary" href="#">Le programme</a>
+    <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdownMenuLink" role="button"
+      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos prochaines sessions</a>
+  </nav>
+  <!----------------------------->
+  <!------------SECTION---------->
+  <!----------------------------->
+  <section class="jumbotron-hero text-center"
+    style="background-image: url
+    (https://images.pexels.com/photos/416676/pexels-photo-416676.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260); background-size: cover; background-position: center; min-height: 500px;">
+    <div class="container">
+      <h1 class="display-4 mt-5 pt-5 text-center font-weight-normal">Partez à l'aventure</h1>
+      <p class="lead text-center font-weight-normal">Découvrez notre école de surf en peer-learning</p>
+      <p>
+        <a class="btn btn-primary my-2" href="#">Je m'inscris à la prochaine session</a>
+        <a class="btn btn-secondary my-2" href="#">Je découvre le programme</a>
+      </p>
+    </div>
+  </section>
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">The Surfing Project en 3 points</h1>
+  </div>
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col text-center">
+        <i class="fas fa-money-bill-wave-alt fa-5x"></i>
+        <h3>Pas chère</h3>
+        <p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses
+          racines dans une oeuvre de la littérature latine classique datant de 45 av</p>
+        <p></p>
+      </div>
+      <div class="col text-center">
+        <i class="fas fa-couch fa-5x"></i>
+        <h3>Relax</h3>
+        <p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses
+          racines dans une oeuvre de la littérature latine classique datant de 45 av</p>
+      </div>
+      <div class="col text-center">
+        <i class="fas fa-users fa-5x"></i>
+        <h3>La communauté</h3>
+        <p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses
+          racines dans une oeuvre de la littérature latine classique datant de 45 av</p>
+      </div>
+    </div>
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4">Témoignages</h1>
+    </div>
+    <div class="card-deck">
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/785133/pexels-photo-785133.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          class="img-fluid" alt="Responsive image">
+        <div class="card-body">
+          <p class="card-text">Surfing's not a sport, it's a way of life, it's no hobby. It's a way of looking at that
+            wave and saying "Hey bud, let's party!"</p>
+          <p class="card-text"><small class="text-muted">Jack, Octobre 2019</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/835615/pexels-photo-835615.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          class="img-fluid" alt="Responsive image">
+        <div class="card-body">
+          <p class="card-text">Grâce à TSP je fais le tour du monde avec mon van et fais du surf ! Si l'expérience était
+            à refaire je le referais plein de fois.</p>
+          <p class="card-text"><small class="text-muted">Clémence, Avril 2019</small></p>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+          <h1 class="display-4">Prix</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card-deck mb-3 text-center">
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Semaine d'éssai</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$0 <small class="text-muted"></small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Le kiff</li>
+                <li>A Bali</li>
+                <li>Pendant 1 semaines</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-outline-primary">S'inscrire</button>
+            </div>
+          </div>
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Early Bird</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$15 <small class="text-muted"></small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Le kiff</li>
+                <li>A Bali</li>
+                <li>Pendant 12 semaines</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-primary">S'inscrire</button>
+            </div>
+          </div>
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">En trois fois</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$7 <small class="text-muted">/ mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Le kiff</li>
+                <li>A Bali</li>
+                <li>Pendant 12 semaines</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-primary">S'inscrire</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
 
-<button type="button" class="btn btn-primary">Primary</button>
+</div>
+© Courtoux - the hacking project
+</div>
+</section>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+<div class="bg-info clearfix bg-grey bg-dark">
+  <i class="far fa-heart text-light"> + 1,944 views</i>
+</div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/9917aa8d07.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
